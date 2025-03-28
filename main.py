@@ -75,7 +75,7 @@ def time_plot(h_list):
         return
     
     anim = animation.FuncAnimation(fig, animate, init_func = init, frames = 500, interval = 0.03, blit = False)
-    anim.save('./test.mp4', fps = 1/0.04, writer = 'ffmpeg', dpi = 200)
+    anim.save('./test2.mp4', fps = 1/0.04, writer = 'ffmpeg', dpi = 200)
 
 
 time_plot(h_list)
